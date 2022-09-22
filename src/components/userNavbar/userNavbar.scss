@@ -1,0 +1,75 @@
+.user-navbar {
+  height: 3.7rem;
+  border-bottom: 0.5px solid #fff;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  background: linear-gradient(to right ,#3599c0,#399ec1,#3ea4c1,#45abc0,#4fb3bf,#5bb9bd,#69c0bb);
+  color: #fff;
+
+  .user-wrapper {
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .user-search {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #fff;
+      border-radius: 0.6rem;
+      padding: 3px;
+
+
+      input {
+        border: none;
+        outline: none;
+        background: transparent;
+
+        &::placeholder {
+          font-size: 0.9rem;
+        }
+      }
+    }
+
+    .items {
+      display: flex;
+      align-items: center;
+
+      .item {
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+        position: relative;
+
+
+        .icon {
+          font-size: 1.25rem;
+        }
+
+        // .avatar {
+        //   width: 1.87rem;
+        //   height: 1.87rem;
+        //   border-radius: 50%;
+        // }
+
+        .counter {
+          width: 0.9rem;
+          height: 0.9rem;
+          background-color: red;
+          border-radius: 50%;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0.6rem;
+          font-weight: bold;
+          position: absolute;
+          top: -5px;
+          right: -5px;
+        }
+      }
+    }
+  }
+}
